@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
 .c1{
     display: flex;
 }
@@ -131,3 +136,118 @@
     border-top: 3px solid green;
     border-bottom: 3px solid black;
 }
+
+.b1{
+    background-color: black;
+}
+.bar{
+    width: 240px;
+    height: 750px;
+    /* margin-top: 0%; */
+    /* margin-top: 20px; */
+    background-color: rgb(68, 58, 58);
+}
+.home{
+    font-size: 30px;
+    margin: 20px;
+    /* padding: 20px; */
+    
+}
+.bar{
+    display: flex;
+    /* align-items: start; */
+    flex-direction: column;
+    /* column-gap: 10px; */
+    align-items: center;
+
+}
+.bar div{
+    margin-top: 100px;
+}
+.home a{
+    color: white;
+    padding: 20px;
+    /* text-decoration: none;    */
+}
+.home a:hover {
+    color: rgb(255, 72, 0);
+}
+
+.home i{
+    color: white;
+}
+.body{
+    color: white;
+    /* background-color: red; */
+    margin-left: 250px;
+    margin-top: -600px;
+    margin-left: 300px;
+
+}
+.body2{
+    color: white;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+.body3{
+    color: white;
+    margin-left: 300px ;
+    padding-top: 30px;
+}
+.icon {
+    border: 2px solid white;
+    width: 250px;
+    height: 40px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+    
+}
+.icon a{
+    color: rgb(231, 223, 223);
+    margin-left: 500px;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.icon a{
+    flex-direction: row;
+}
+.class0{
+    margin-left: 600px;
+    border: 2px solid red;
+    background-color: red;
+    width: 130px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.class0 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.class0 a:hover{
+    color: green;
+}
+.image2{
+    /* border: 2px solid yellow; */
+    height: 300px;
+    width: 250px;
+    margin-left: 1100px;
+    margin-top: -330px;
+    background-image: url(image2.jpeg);
+    background-size: cover;
+    border: 1px solid rgb(216, 197, 197);
+    box-shadow: 2px 4px white;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}   
+
